@@ -1,0 +1,9 @@
+.clients{
+  padding: 114.5px;
+
+  &-content{
+    margin-top: 64px;
+
+      @include flex(center, space-between);
+  }
+}

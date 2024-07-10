@@ -1,0 +1,50 @@
+.quality {
+  padding: 56px;
+
+  &-row {
+    @include flex(center, space-between);
+    padding:50px; 
+    background-color: $green-color;
+    border-radius: 6px;
+  }
+
+  &-image {
+    border-radius: 6px;
+    margin-right: 40px;
+  }
+
+  &-title {
+    font-weight: 600;
+    font-size: 56px;
+    color: $black1-color;
+  }
+
+  &-subtitle,
+  &-subtitle__one {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: $black1-color;
+  }
+
+  &-button {
+    margin-top: 25px;
+    border-radius: 4px;
+    padding: 16px 24px;
+    width: 216px;
+    height: 56px;
+    background-color: $main-color;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: $white-color;
+
+    &:hover {
+      background-color: $bgGreen-color;
+      border: 1px solid $black1-color;
+      color: $black1-color;
+      transition: all 0.2s ease-in-out;
+    }
+  }
+}

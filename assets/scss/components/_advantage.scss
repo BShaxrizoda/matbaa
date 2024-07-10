@@ -1,0 +1,40 @@
+.advantage {
+  padding: 120px;
+
+  &-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &-card {
+    margin-top: 24px;
+    margin-right: 24px;
+    border-radius: 4px;
+    width: 610px;
+    height: 255px;  
+    background-color: $bgGreen-color;
+
+  }
+
+  &-number {
+    padding:36px 36px 0 36px;
+    font-weight: 400;
+    font-size: 49px;
+    color: $white-color;
+  }
+
+  &-title {
+    padding:0 36px 0 36px;
+    font-weight: 600;
+    font-size: 25px;
+    color: $white-color;
+  }
+
+  &-subtitle {
+    padding:0 36px 0 36px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: $white-color;
+  }
+}

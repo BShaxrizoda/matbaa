@@ -1,0 +1,6 @@
+.cases{
+  &-content{
+    padding: 48px 0;
+    @include flex(center, space-between);
+  }
+}

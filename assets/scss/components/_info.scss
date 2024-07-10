@@ -1,0 +1,81 @@
+.info {
+  padding: 96px 0;
+  background-color: $bg-color;
+
+  &-content {
+    @include flex(center, space-between);
+  }
+
+  &-title {
+    font-weight: 600;
+    font-size: 56px;
+    color: $main-color;
+  }
+
+  &-subtitle {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: $black-color;
+  }
+
+  &-button {
+    border-radius: 4px;
+    padding: 16px 24px;
+    width: 185px;
+    height: 56px;
+    background-color: $main-color;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    color: $white-color;
+    margin-top: 32px;
+
+    &:hover{
+      background-color: $bgGreen-color;
+      border: 1px solid $black1-color;
+      color: $black1-color;
+      transition: all 0.2s ease-in-out;
+    }
+
+  }
+
+  &-icon {
+    position: absolute;
+    left: 315px;
+    top: 1725px;
+  }
+
+  &-number {
+    @include flex(center, space-between);
+  }
+
+  &-num__one {
+    margin-top: 64px;
+    border-radius: 4px;
+    padding: 24px;
+    width: 306px;
+    height: 162px;
+    background-color: $white-color;
+
+    &:not(:last-child) {
+      margin-right: 26px;
+    }
+  }
+
+  &-num__text {
+    padding: 24px 0;
+    font-weight: 500;
+    font-size: 48px;
+    color: $black-color;
+  }
+
+  &-num__subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: $black-color;
+    margin-top: 32px;
+  }
+}
