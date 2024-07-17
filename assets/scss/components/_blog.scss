@@ -1,6 +1,7 @@
 .blog {
+  overflow-x: hidden;
   padding: 116px;
-  background-color: $bg-color;
+  // background-color: $bg-color;
 
   &-content {
     padding: 40px 0;

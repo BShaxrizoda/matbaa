@@ -2,25 +2,25 @@
   padding: 97px;
 
 
-  &-card {
-    @include flex(center, space-between);
-  }
+  // &-card {
+  //   @include flex(center, space-between);
+  // }
 
-  &-img {
-    margin-top: 48px;
-    width: 419px;
-    height: 308px;
+  // &-img {
+  //   margin-top: 48px;
+  //   width: 419px;
+  //   height: 308px;
 
-    &:not(:last-child) {
-      margin-right: 24px;
-    }
-  }
+  //   &:not(:last-child) {
+  //     margin-right: 24px;
+  //   }
+  // }
 
-  &-text {
-    margin-top: 16px;
-    font-family: $main-font;
-    font-weight: 400;
-    font-size: 20px;
-    color: $black1-color;
-  }
+  // &-text {
+  //   margin-top: 16px;
+  //   font-family: $main-font;
+  //   font-weight: 400;
+  //   font-size: 20px;
+  //   color: $black1-color;
+  // }
 }

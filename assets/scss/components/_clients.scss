@@ -1,8 +1,10 @@
 .clients{
-  padding: 114.5px;
+  padding: 114.5px 0;
 
   &-content{
     margin-top: 64px;
+
+    gap: 120px;
 
       @include flex(center, space-between);
   }
